@@ -130,3 +130,8 @@ dmypy.json
 
 # MAC OS specific
 .DS_Store
+
+# Project specific
+european-flood-2013_imgs_small.zip
+Flood Dataset/
+.vscode
