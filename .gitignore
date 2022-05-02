@@ -133,5 +133,7 @@ dmypy.json
 
 # Project specific
 european-flood-2013_imgs_small.zip
-Flood Dataset/
+flood_presence/
+splits/
+src_data/
 .vscode
