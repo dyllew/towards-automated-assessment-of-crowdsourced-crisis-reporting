@@ -1,0 +1,1 @@
+{"cv_type": "stratified_k_fold", "seed": 1, "shuffle": true, "n_jobs": -1, "optimize_metric": "f2", "outer_splits_num": 5, "inner_splits_num": 5}

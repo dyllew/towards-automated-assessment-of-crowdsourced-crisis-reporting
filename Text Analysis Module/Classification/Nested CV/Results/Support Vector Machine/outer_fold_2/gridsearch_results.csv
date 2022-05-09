@@ -1,0 +1,337 @@
+params,featurization,split0_test_score,split1_test_score,split2_test_score,split3_test_score,split4_test_score,mean_test_score,std_test_score
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.5333333333333333,0.3424657534246575,0.29411764705882354,0.4347826086956521,0.5797101449275363,0.43688189748800055,0.1086307822093756
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.10204081632653061,0.10204081632653061,0.09433962264150944,0.10204081632653061,0.0,0.08009241432422025,0.040157128454320186
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.4716981132075472,0.3773584905660377,0.27272727272727276,0.3846153846153846,0.7017543859649122,0.4416307294162308,0.14455338956618421
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.3846153846153846,0.19999999999999996,0.27272727272727276,0.19999999999999996,0.19999999999999996,0.25146853146853143,0.0722869943729817
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.6363636363636365,0.29411764705882354,0.27272727272727276,0.3846153846153846,0.689655172413793,0.45549582263578203,0.17436459618473302
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.3846153846153846,0.19999999999999996,0.27272727272727276,0.19999999999999996,0.19999999999999996,0.25146853146853143,0.0722869943729817
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.5555555555555556,0.29411764705882354,0.27272727272727276,0.3846153846153846,0.7017543859649122,0.44175404918438976,0.163818401505525
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.7017543859649122,0.4716981132075472,0.27272727272727276,0.2777777777777778,0.689655172413793,0.4827225444182607,0.18815842778354014
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.3846153846153846,0.19999999999999996,0.27272727272727276,0.19999999999999996,0.19999999999999996,0.25146853146853143,0.0722869943729817
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.7017543859649122,0.29411764705882354,0.27272727272727276,0.4716981132075472,0.689655172413793,0.4859905182744698,0.1846802758276508
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.7017543859649122,0.4716981132075472,0.27272727272727276,0.18867924528301885,0.6140350877192983,0.44977882098040983,0.19517812431324635
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.3846153846153846,0.19999999999999996,0.27272727272727276,0.19999999999999996,0.19999999999999996,0.25146853146853143,0.0722869943729817
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",unigram,0.7758620689655173,0.4716981132075472,0.3571428571428572,0.3636363636363636,0.6779661016949153,0.5292611009294401,0.16928966636628437
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",unigram,0.7017543859649122,0.4716981132075472,0.27272727272727276,0.18867924528301885,0.6140350877192983,0.44977882098040983,0.19517812431324635
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",unigram,0.3846153846153846,0.19999999999999996,0.27272727272727276,0.19999999999999996,0.19999999999999996,0.25146853146853143,0.0722869943729817
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",unigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",unigram,0.29411764705882354,0.19999999999999996,0.0,0.19999999999999996,0.3773584905660377,0.21429522752497224,0.12593045542187079
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",unigram,0.5555555555555556,0.29411764705882354,0.27272727272727276,0.4716981132075472,0.7017543859649122,0.45917059490282225,0.16142954067754106
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.3571428571428572,0.3703703703703703,0.689655172413793,0.5311986863711001,0.17075474905052215
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.4545454545454546,0.3571428571428572,0.2777777777777778,0.689655172413793,0.51099666616908,0.19147915145009317
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",unigram,0.7758620689655173,0.462962962962963,0.43859649122807015,0.2777777777777778,0.689655172413793,0.5289708946696243,0.1802205598031585
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.42857142857142855,0.0,0.0,0.0,0.08571428571428572,0.17142857142857143
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.6024096385542168,0.42857142857142855,0.1754385964912281,0.0,0.0,0.24128393272337473,0.23927384403536428
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.5494505494505495,0.3488372093023256,0.1807228915662651,0.08620689655172413,0.3947368421052631,0.3119908777952255,0.16297320811259483
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.19999999999999996,0.0,0.18518518518518517,0.10204081632653061,0.10204081632653061,0.11785336356764926,0.07165351726774927
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.29411764705882354,0.0,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.17377714722252538,0.10982276568477353
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.10204081632653061,0.17459347375313763,0.08911558203197843
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.29411764705882354,0.0,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.17377714722252538,0.10982276568477353
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.29411764705882354,0.0,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.17377714722252538,0.10982276568477353
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",bigram,0.29411764705882354,0.19999999999999996,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.21377714722252533,0.0675193904360121
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",bigram,0.29411764705882354,0.0,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.17377714722252538,0.10982276568477353
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",bigram,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",bigram,0.19999999999999996,0.10204081632653061,0.18518518518518517,0.10204081632653061,0.10204081632653061,0.1382615268329554,0.044607820818608375
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.29411764705882354,0.27272727272727276,0.19999999999999996,0.29411764705882354,0.2710160427807487,0.03646164834680219
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.29411764705882354,0.27272727272727276,0.19999999999999996,0.29411764705882354,0.2710160427807487,0.03646164834680219
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.19999999999999996,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.21377714722252533,0.0675193904360121
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.29411764705882354,0.27272727272727276,0.10204081632653061,0.29411764705882354,0.2514242060460548,0.07514972719930786
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",bigram,0.29411764705882354,0.10204081632653061,0.27272727272727276,0.10204081632653061,0.19999999999999996,0.1941853104878315,0.08144978569347718
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.4597701149425287,0.3333333333333333,0.32967032967032966,0.16666666666666666,0.44943820224719094,0.3477757293720099,0.10603290214468193
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.10204081632653061,0.10204081632653061,0.09433962264150944,0.0,0.0,0.05968425105891413,0.048813054956629076
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.4310344827586208,0.5454545454545454,0.17241379310344826,0.26785714285714285,0.6818181818181818,0.4197156291983878,0.18376906029404694
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.29411764705882354,0.19999999999999996,0.18518518518518517,0.10204081632653061,0.19999999999999996,0.19626872971410786,0.060998360637196034
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.75,0.4716981132075472,0.3448275862068965,0.4545454545454546,0.7142857142857143,0.5470713736491225,0.15766127410479247
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.29411764705882354,0.19999999999999996,0.18518518518518517,0.10204081632653061,0.19999999999999996,0.19626872971410786,0.060998360637196034
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.5555555555555556,0.4716981132075472,0.09090909090909091,0.462962962962963,0.7377049180327869,0.46376612813358864,0.21097568166365757
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.7627118644067796,0.5555555555555556,0.5,0.3703703703703703,0.7258064516129031,0.5828888483891217,0.14528835602671253
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.29411764705882354,0.19999999999999996,0.18518518518518517,0.10204081632653061,0.19999999999999996,0.19626872971410786,0.060998360637196034
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.7894736842105263,0.4716981132075472,0.5,0.462962962962963,0.7377049180327869,0.5923679356827647,0.14128850137531246
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.7627118644067796,0.5555555555555556,0.5,0.3703703703703703,0.7142857142857143,0.580584700923684,0.14307807768014524
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.29411764705882354,0.19999999999999996,0.18518518518518517,0.10204081632653061,0.19999999999999996,0.19626872971410786,0.060998360637196034
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",TFIDF,0.7894736842105263,0.5555555555555556,0.5,0.462962962962963,0.7377049180327869,0.6091394241523663,0.13053714739598693
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",TFIDF,0.7627118644067796,0.5555555555555556,0.5,0.3703703703703703,0.7142857142857143,0.580584700923684,0.14307807768014524
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",TFIDF,0.29411764705882354,0.19999999999999996,0.18518518518518517,0.10204081632653061,0.19999999999999996,0.19626872971410786,0.060998360637196034
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",TFIDF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",TFIDF,0.29411764705882354,0.10204081632653061,0.18518518518518517,0.10204081632653061,0.28846153846153844,0.19436920067172167,0.08477797808327006
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",TFIDF,0.6363636363636365,0.4716981132075472,0.09433962264150944,0.5454545454545454,0.75,0.4995711835334477,0.22294464611720516
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5833333333333334,0.4716981132075472,0.75,0.6279919352411905,0.1218169884371032
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",TFIDF,0.7894736842105263,0.5454545454545454,0.5084745762711864,0.3773584905660377,0.75,0.5941522593004592,0.1543701060278234
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.4513888888888889,0.0,0.0,0.09027777777777778,0.18055555555555555
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.0,0.0,0.0,0.17142857142857143,0.20995626366712952
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.5769230769230769,0.611111111111111,0.6593406593406593,0.423728813559322,0.5882352941176471,0.5718677910103632,0.07928448597339255
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.8,0.8088235294117646,0.7042253521126761,0.5555555555555556,0.7432432432432432,0.7223695360646479,0.0917525030202772
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.42857142857142855,0.42857142857142855,0.4513888888888889,0.0,0.0,0.2617063492063492,0.21384471081290643
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.6363636363636365,0.462962962962963,0.5172413793103449,0.3846153846153846,0.7758620689655173,0.5554090864435692,0.13735115933559275
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.6593406593406593,0.6790123456790123,0.6470588235294118,0.5797101449275363,0.5844155844155844,0.6299075115784407,0.040400627412337874
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.8208955223880597,0.7575757575757576,0.7971014492753623,0.6923076923076923,0.8333333333333334,0.780242750976041,0.05099380472111539
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.8620689655172415,0.5263157894736842,0.78125,0.4545454545454546,0.859375,0.6967110419072761,0.17241134263881683
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.8620689655172415,0.6250000000000001,0.8064516129032259,0.6250000000000001,0.819672131147541,0.7476385419136017,0.10180624840219912
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.7894736842105263,0.462962962962963,0.7936507936507935,0.462962962962963,0.8333333333333334,0.6684767474241158,0.16849826449265679
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.8333333333333334,0.7575757575757576,0.7971014492753623,0.703125,0.8450704225352113,0.7872411925439329,0.05200288804803597
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.9322033898305083,0.6034482758620691,0.7936507936507935,0.689655172413793,0.9230769230769231,0.7884069109668174,0.1286876376098276
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.7894736842105263,0.462962962962963,0.7936507936507935,0.462962962962963,0.8333333333333334,0.6684767474241158,0.16849826449265679
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.8620689655172415,0.7017543859649122,0.8064516129032259,0.689655172413793,0.819672131147541,0.7759204535893428,0.06813256403331057
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.9322033898305083,0.5357142857142857,0.7936507936507935,0.7627118644067796,0.8870967741935484,0.7822754215591832,0.13767384443376987
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.7894736842105263,0.462962962962963,0.7936507936507935,0.462962962962963,0.8333333333333334,0.6684767474241158,0.16849826449265679
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 1e-05, 'classifier__kernel': 'rbf'}",BERT,0.9322033898305083,0.6666666666666666,0.7936507936507935,0.689655172413793,0.9230769230769231,0.8010505891277369,0.11190551171703378
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.0001, 'classifier__kernel': 'rbf'}",BERT,0.9322033898305083,0.5357142857142857,0.7936507936507935,0.7627118644067796,0.8870967741935484,0.7822754215591832,0.13767384443376987
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.001, 'classifier__kernel': 'rbf'}",BERT,0.7894736842105263,0.462962962962963,0.7936507936507935,0.462962962962963,0.8333333333333334,0.6684767474241158,0.16849826449265679
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.01, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",BERT,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"{'classifier__C': 0.0001, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",BERT,0.7857142857142857,0.8208955223880597,0.735294117647059,0.6818181818181818,0.8450704225352113,0.7737585060205594,0.05896229439988469
+"{'classifier__C': 0.001, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",BERT,0.7894736842105263,0.6250000000000001,0.7377049180327869,0.462962962962963,0.8064516129032258,0.6843186356219005,0.12754699360099897
+"{'classifier__C': 0.001, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",BERT,0.9166666666666666,0.7936507936507936,0.7692307692307693,0.75,0.8955223880597015,0.8250141235215862,0.06796199502276022
+"{'classifier__C': 0.01, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.6140350877192983,0.7936507936507935,0.7627118644067796,0.8870967741935484,0.7979395819601856,0.11050432011641682
+"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
+"{'classifier__C': 0.1, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
+"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
+"{'classifier__C': 1.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
+"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
+"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
+"{'classifier__C': 10.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
+"{'classifier__C': 100.0, 'classifier__class_weight': None, 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
+"{'classifier__C': 100.0, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}",BERT,0.9322033898305083,0.5357142857142857,0.78125,0.7627118644067796,0.8064516129032258,0.76366623057096,0.12845820481280731
