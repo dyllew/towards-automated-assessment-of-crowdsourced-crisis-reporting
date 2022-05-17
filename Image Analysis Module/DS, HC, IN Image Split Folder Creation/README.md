@@ -32,7 +32,7 @@ In the Notebook:
 ``` 
 
 The expected image counts for each task folder are shown below:
-![Image](./image-counts.png "a title")
+![Image](./image-counts.png "CCID Task Splits Image Counts")
 
 **IMPORTANT NOTE:**
 
