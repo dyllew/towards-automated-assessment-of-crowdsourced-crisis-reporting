@@ -1,0 +1,1 @@
+{"devBatchSize": 500, "gradAccumulationSteps": 2, "seed": 1, "noCuda": false, "imageModuleGitVersion": "0.24.1+8.gef55b40", "deviceType": "cuda", "gpuModel": "Tesla P100-PCIE-16GB", "kwargs": {"num_workers": 2, "pin_memory": true}}

@@ -1,0 +1,1 @@
+{"pretrainedModelName": "efficientnet-b1", "taskName": "humanitarian_categories", "epochs": 25, "trainBatchSize": 128, "featureExtract": false, "fcLayersDict": {}, "optimizerType": "Adam", "learningRate": 0.0001, "criterionType": "cce_loss", "metric": "accuracy", "patience": 10, "learningRateReductionFactor": 0.1}

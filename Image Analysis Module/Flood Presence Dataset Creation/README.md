@@ -7,11 +7,11 @@ From the terminal:
 1. Once `pipenv` is installed, run: `pipenv install ipykernel`
 2. Activate your virtual environment with `pipenv`, by running `pipenv shell`
 3. Create project kernel: `python -m ipykernel install --user --display-name [name-of-your-kernel] --name [name-of-your-kernel]`
-3. Launch Jupyter notebook with `jupyter notebook` command and make sure to select the `[name-of-your-kernel]` kernel.
+4. Launch Jupyter notebook with `jupyter notebook` command and make sure to select the `[name-of-your-kernel]` kernel.
 
 In the Notebook:
 
-4. Run the entirety of the `make_flood_presence_dataset.ipynb` notebook to generate the `./splits` folder, which contains the final splits for the flood presence task & the `./flood_presence` folder which contains the train (`./flood_presence/train`), dev (`./flood_presence/dev`), and test (`./flood_presence/test`) splits with a folder structure that can be used by the convenient `ImageFolder` class in PyTorch, namely:
+5. Run the entirety of the `make_flood_presence_dataset.ipynb` notebook to generate the `./splits` folder, which contains the final splits for the flood presence task & the `./flood_presence` folder which contains the train (`./flood_presence/train`), dev (`./flood_presence/dev`), and test (`./flood_presence/test`) splits with a folder structure that can be used by the convenient `ImageFolder` class in PyTorch, namely:
 ```
 .
 ├── splits                                # Contains final Flood Presence train/dev/test split CSVs which are used to create image folders

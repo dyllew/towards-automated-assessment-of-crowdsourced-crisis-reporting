@@ -133,7 +133,7 @@ dmypy.json
 
 # Project specific
 european-flood-2013_imgs_small.zip
-flood_presence/
+Flood Presence Dataset Creation/flood_presence
 splits/
 src_data/
 CCID Splits Data/

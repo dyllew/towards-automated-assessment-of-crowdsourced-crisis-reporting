@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+pandas = "*"
+url-image-module = "==0.27.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

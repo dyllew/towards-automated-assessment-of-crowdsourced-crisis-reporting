@@ -1,0 +1,1 @@
+{"metrics": {"weighted_recall": 0.8572608234045063, "weighted_accuracy": 0.8460184626257486, "weighted_precision": 0.8567931053637367, "weighted_f1": 0.8563312027636315}, "confusion_matrix": [[2691, 723], [487, 4576]], "class_label_dict": {"informative": 0, "not_informative": 1}}
