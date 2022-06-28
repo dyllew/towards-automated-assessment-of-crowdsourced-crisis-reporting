@@ -2,7 +2,7 @@
 
 
 ### **URL Image Analysis Module Python Package**
-The URL Image Module Python package is used throughout the notebooks we developed in our image analysis and is open-sourced under the Apache 2.0 License. This package is available on PyPI [here](https://pypi.org/project/url-image-module/0.27.0/). The package repository can be found [here](https://gitlab.com/react76/url-image-module).
+The URL Image Module Python package is used throughout the notebooks we developed in our image analysis and is open-sourced under the Apache 2.0 License. This package is available on PyPI [here](https://pypi.org/project/url-image-module/0.27.0/). The package repository can be found [here](https://gitlab.com/react76/url-image-module). We note that we used version 0.27.0 of the package in this work.
 
 ### **Image Analysis Methodology -- Training, Annotation, Analysis, and Evaluation in Fukuchiyama City, Japan**
 Below we list the order & purpose of various Jupyter notebooks used for conducting our analysis on crisis image data from Fukuchiyama City, Japan. This includes constructing datasets/image folders, training models, conducting image annotation on Fukuchiyama images, interannotator agreement analysis, and testing of models.
