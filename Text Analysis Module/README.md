@@ -13,50 +13,60 @@ Below we list the order & purpose of various Jupyter notebooks used for conducti
 ### **Cleaning, Exploratory Data Analysis (EDA), Preprocessing and Featurization of the Text Data**
 ---
 1. **Refactoring the original dataset CSV & cleaning the corresponding pandas DataFrame:**
-* Alters pandas DataFrame containing the original Fukuchiyama text data by renaming columns of the dataframe to their corresponding name in the URL text module Python package essentially to enable compatibility with the utilities in the URL text module.
-* Cleans the dataframe by removing any rows with all blank entries, i.e. where the value of each column is n/a for a row, and any row which is missing the input text string.
-- Directory: [./Cleaning, EDA, and Preprocessing]()
-- Notebook: [./Cleaning, EDA, and Preprocessing/Clean_FC_txt_data.ipynb]()
+    * Alters pandas DataFrame containing the original Fukuchiyama text data by renaming columns of the dataframe to their corresponding name in the URL text module Python package essentially to enable compatibility with the utilities in the URL text module.
+    * Cleans the dataframe by removing any rows with all blank entries, i.e. where the value of each column is n/a for a row, and any row which is missing the input text string.
+- Directory: [./Cleaning, EDA, and Preprocessing](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Cleaning%2C%20EDA%2C%20and%20Preprocessing)
+- Notebook: [./Cleaning, EDA, and Preprocessing/Clean_FC_txt_data.ipynb](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Cleaning%2C%20EDA%2C%20and%20Preprocessing/Clean_FC_txt_data.ipynb)
 2. **Exploratory Data Analysis:**
-* Using the cleaned dataframe from the step above, performs EDA by investigating the frequencies of unique categories given to the text reports by personnel at the fire department headquarters (FDHQ), the distribution of the character counts of the Firefighter text reports and comparing it against a text dataset from RiskMap during Typhoon Hagibis in Tokyo, Japan. 
-* Variations of "Yes" & "No" labels were provided by personnel at the FDHQ for classifying whether or not a text report was indicative of Human Risk. This notebook corrects the variations to be "Yes" & "No" labels and plots the final distribution of the labels across the data set to see the extent of class imbalance for the task.
+    * Using the cleaned dataframe from the step above, performs EDA by investigating the frequencies of unique categories given to the text reports by personnel at the fire department headquarters (FDHQ), the distribution of the character counts of the Firefighter text reports and comparing it against a text dataset from RiskMap during Typhoon Hagibis in Tokyo, Japan. 
+    * Variations of "Yes" & "No" labels were provided by personnel at the FDHQ for classifying whether or not a text report was indicative of Human Risk. This notebook corrects the variations to be "Yes" & "No" labels and plots the final distribution of the labels across the data set to see the extent of class imbalance for the task.
 
-- Directory: [./Cleaning, EDA, and Preprocessing]()
-- Notebook: [./Cleaning, EDA, and Preprocessing/FC_txt_data_EDA.ipynb]()
-- Misc: The plots created during the EDA can be found [here]().
+- Directory: [./Cleaning, EDA, and Preprocessing](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Cleaning%2C%20EDA%2C%20and%20Preprocessing)
+- Notebook: [./Cleaning, EDA, and Preprocessing/FC_txt_data_EDA.ipynb](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Cleaning%2C%20EDA%2C%20and%20Preprocessing/FC_txt_data_EDA.ipynb)
+- Misc: The plots created during the EDA can be found [here](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Plots/EDA).
 
 3. **Preprocessing & Featurization of the Raw Input Text:**
-* Using the cleaned firefigheter report dataset from the above steps, applies a preprocessing pipeline which first tokenizes the text strings into word tokens using the pretrained tokenizer, Fugashi, then uses an open-source set of Japanese stopwords to remove stopword tokens, and then converts tokens into their lemma (or dictionary) form. 
-* Alternatively, uses a pretrained BERT model trained for Masked Language Modeling objective on the Japanese version of Wikipedia to extract contextualized embeddings (this process is also known as CLS Pooling) of the input firefighter text reports with minimal preprocessing. The proprocessed and tokenized documents as well as the BERT embeddings are then used in the classification and clustering experiments in the notebooks below.
+    * Using the cleaned firefigheter report dataset from the above steps, applies a preprocessing pipeline which first tokenizes the text strings into word tokens using the pretrained tokenizer, Fugashi, then uses an open-source set of Japanese stopwords to remove stopword tokens, and then converts tokens into their lemma (or dictionary) form. 
+    * Alternatively, uses a pretrained BERT model trained for Masked Language Modeling objective on the Japanese version of Wikipedia to extract contextualized embeddings (this process is also known as CLS Pooling) of the input firefighter text reports with minimal preprocessing. The proprocessed and tokenized documents as well as the BERT embeddings are then used in the classification and clustering experiments in the notebooks below.
 
-- Directory: [./Cleaning, EDA, and Preprocessing]()
-- Notebook: [./Cleaning, EDA, and Preprocessing/FC_txt_preprocessing.ipynb]()
+- Directory: [./Cleaning, EDA, and Preprocessing](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Cleaning%2C%20EDA%2C%20and%20Preprocessing)
+- Notebook: [./Cleaning, EDA, and Preprocessing/FC_txt_preprocessing.ipynb](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Cleaning%2C%20EDA%2C%20and%20Preprocessing/FC_txt_preprocessing.ipynb)
+- Misc: Diagram of Text Preprocessing & Featurization Pipeline is [here](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Cleaning%2C%20EDA%2C%20and%20Preprocessing/text-preprocessing.png).
 
 ### **Classification of Fukuchiyama Crisis Text Data**
 ---
+
 4. **Classification of the FC Firefighter Text Reports for the binary Human Risk Task**
+
+![Image](./Classification/human-risk-classification.png "Human Risk Classification")
 
 **Data & Model Preparation For Human Risk Classification Experiments**
 * Splits the data (the raw input text, tokenized documents, and BERT embeddings discussed above) labeled for the binary (Yes/No) Human Risk task into Train and Test sets into percentages of 80%/20, respectively, of the original dataset. We note that this splitting is stratified meaning that the proportion of the yes/no labels in the original dataset is preserved in the training and test sets.
 * Defines the hyperparameter + featurization grids and the type of normalization to apply to the featurization to algorithm for several classification algorithms including: Logistic Regression (LR), Random Forest (RF), Decision Tree (DT), Multinomial Naive Bayes (MB), K-Nearest Neighbors (KNN), and Support Vector Machine (SVM)
 
 **Nested Cross Validation (Nested CV) for Algorithm Selection on Training Set**
-* Performs 5 by 5 Nested CV (with Grid Search) for the algorithm and corresponding hyperparameter + featurization grids (for algorithm selection) mentioned above and plots the mean and standard deviation of the F2 score for each on the outer cross validation test folds. This procedure is done using the train dataset mentioned above. We note that stratified cross validation is used in which the proportions of the Yes/No labels in the training set are preserved in the train/test folds of the Nested CV inner & outer cross validation procedures. Saves defined grids for each algorithm and related intermediate results, final results, and metadata from the Nested CV procedure in the [Nested CV]() directory.
+* Performs 5 by 5 Nested CV (with Grid Search) for the algorithm and corresponding hyperparameter + featurization grids (for algorithm selection) mentioned above and plots the mean and standard deviation of the F2 score for each on the outer cross validation test folds. This procedure is done using the train dataset mentioned above. We note that stratified cross validation is used in which the proportions of the Yes/No labels in the training set are preserved in the train/test folds of the Nested CV inner & outer cross validation procedures. Saves defined grids for each algorithm and related intermediate results, final results, and metadata from the Nested CV procedure in the [Nested CV](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Classification/Nested%20CV) directory.
+
+- Diagram: [https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Classification/algorithm-selection.png](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Classification/algorithm-selection.png)
 
 **Stratified Cross Validation on Support Vector Machine (SVM) and its corresponding grid on Training Set**
-* SVM (& its corresponding hyperparameter + featurization grid) gives the highest mean F2 score (82.0%) and lowest standard deviation (4.22%), so 5-fold cross validation validation (with Grid Search) is performed using the SVM algorithm & its associated hyperparameter and featurization grid to find the best hyperparameter and featurization combination which has the highest mean F2 score across the test folds. Saves final and intermediate results and metadata from the cross validation procedure in the [SVM_CV_TUNING]() directory.
+* SVM (& its corresponding hyperparameter + featurization grid) gives the highest mean F2 score (82.0%) and lowest standard deviation (4.22%), so 5-fold cross validation validation (with Grid Search) is performed using the SVM algorithm & its associated hyperparameter and featurization grid to find the best hyperparameter and featurization combination which has the highest mean F2 score across the test folds. Saves final and intermediate results and metadata from the cross validation procedure in the [SVM_CV_TUNING](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Classification/SVM_CV_TUNING) directory.
+
+- Diagram: [https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Classification/human-risk-model-evaluation.png](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Classification/human-risk-model-evaluation.png)
 
 **Final SVM Model Evaluation on Test Set**
 * Using the SVM model fitted on the entire training set with the hyperparameter + featurization combination which had the highest mean F2 score from the CV procedure, the model is evaluted on the test set in which the the Area Under the Precision Recall (AUCPR: 0.919) and the F2 score (F2: 0.928) are computed for the fitted SVM model. These scores are compared to a variety of baseline "dummy" classification strategies including the classifier which always predicts "Human Risk" (AUCPR: 0.566/ F2: 0.434)
 * The precision-recall curve is plotted for the fitted SVM model on the test set using its decision score function. Additionally, the confusion matrix of the SVM model on the test set is plotted as well as the per-class precision, recall, and F1 scores.
 
+- Diagram: [https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Classification/human-risk-model-evaluation.png](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Classification/human-risk-model-evaluation.png)
+
 **Model Preparation for Future Inferencing**
 * The SVM model is fitted to the entire dataset (both train + test sets) for future inferencing for the binary Human Risk task. This model and various metadata (hyperparameters, featurization, normalization applied to the input, class to integer label dictionary, version of URL Text Module, etc.) are saved for use in future inferencing. An example of inferencing on unseen Japanese text is shown at the bottom of the notebook where the model predicts Human Risk/No Human Risk on Japanese RiskMap reports from Typhoon Hagibis in 2019.
-- Directory: [./Classification]()
-- Notebook: [./Classification/FC_txt_data_classification.ipynb]()
+- Directory: [./Classification](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Classification)
+- Notebook: [./Classification/FC_txt_data_classification.ipynb](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Classification/FC_txt_data_classification.ipynb)
 - Misc: 
-    * Associated plots from the Human Risk Classification experiments (Nested CV results, confusion matrix of SVM model, per-class performance of SVM model, and precision-recall curve of SVM model) can be found [here]()
-    * The Human Risk SVM model fitted on the entire dataset and its corresponding metadata can be found [here]().
+    * Associated plots from the Human Risk Classification experiments (Nested CV results, confusion matrix of SVM model, per-class performance of SVM model, and precision-recall curve of SVM model) can be found [here](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Plots/Classification%20Results).
+    * The Human Risk SVM model fitted on the entire dataset and its corresponding metadata can be found [here](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Trained%20Text%20SVM%20Human%20Risk%20Model/svm_human_risk).
 
 ### **Clustering of Fukuchiyama Crisis Text Data**
 ---
@@ -85,7 +95,7 @@ From these plots, a subset of hyperparameter combinations are selected for futhe
  * BERT Embeddings, PCA (2 components), & K-medoids (9 clusters)
  * BERT Embeddings, t-SNE (2 components), & K-medoids (9 clusters)
  * TF-IDF Embeddings, PCA (2 components), & K-medoids (8 clusters)
- * TF-IDF Embeddings, t-SNE (2 components), & K-medoids (14 clusters)  
+ * TF-IDF Embeddings, t-SNE (2 components), & K-medoids (14 clusters) 
 
 **Qualitative Investigation of each Combination in the Query Subset**
 
@@ -124,8 +134,12 @@ cluster_category_names = {
     8: 'Areas where FD activities are happening'
 }
 ```
-- Directory: [./Clustering]()
-- Notebook: [./Clustering/FC_txt_data_clustering.ipynb]()
+![Image](../Text%20Analysis%20Module/Plots/Clustering%20Results/BERT_t-SNE_K-medoids/labeled_clusters.png "Human-labeled clusters")
+
+- Directory: [./Clustering](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Clustering)
+- Notebook: [./Clustering/FC_txt_data_clustering.ipynb](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Clustering/FC_txt_data_clustering.ipynb)
 - Misc:
-    * The WCSS, or "Elbow" plots for each hyperparameter combination can be found [here]()
-    * The labeled plot of the clustering found for the hyperparameter combination of BERT Embeddings, t-SNE (2 components), & K-medoids (9 clusters) can be found [here]()
+    * Diagram of Clustering Pipeline used for these experiments can be found [here](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Clustering/clustering-pipeline.png).
+    * Diagram of Qualitative Analysis can be found [here](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Clustering/qualitative-clustering-analysis.png).
+    * The WCSS, or "Elbow" plots for each hyperparameter combination can be found [here](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Text%20Analysis%20Module/Plots/Clustering%20Results/Elbow%20Plots).
+    * The labeled plot of the clustering found for the hyperparameter combination of BERT Embeddings, t-SNE (2 components), & K-medoids (9 clusters) can be found [here](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Text%20Analysis%20Module/Plots/Clustering%20Results/BERT_t-SNE_K-medoids/labeled_clusters.png).
