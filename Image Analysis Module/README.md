@@ -72,3 +72,6 @@ Below we list the order & purpose of various Jupyter notebooks used for conducti
 12. Creates folders corresponding to different results of the annotation, e.g. folder of images for a task which had complete agreement, complete disagreement, etc. between annotators as well as folders comparing model predictions from step 11. against annotation results. These folders were useful in the selection of images for the image annotation workshops held with various EOC as well as in pinpointing ambigious examples for each class of a task in order to resolve disagreements between annotators and refine class definitions for a task. 
     - Directory: [./FC Images Labeling Review](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/tree/main/Image%20Analysis%20Module/FC%20Images%20Labeling%20Review)
     - Notebook: [./FC Images Labeling Review/Predictions_on_FC_Data.ipynb](https://github.com/dyllew/towards-automated-assessment-of-crowdsourced-crisis-reporting/blob/main/Image%20Analysis%20Module/FC%20Images%20Labeling%20Review/make_labeling_review_folders_for_FC_img_data.ipynb)
+
+Diagram of the Image Analysis Module:
+![Image](./image-module.png "Image Module")
