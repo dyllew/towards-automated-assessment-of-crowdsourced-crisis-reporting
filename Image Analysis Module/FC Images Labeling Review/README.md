@@ -23,7 +23,7 @@ LABELING_REVIEW_PATH # Directory containing folders for each task which contain 
 ├── FC_agreement.csv # CSV containing file paths to images on host machine and boolean fields for each type of agreement that can occur on an image, e.g. complete agreement, complete disagreement, plurality but not complete agreement
 ├── damage_severity 
 |   ├── is_complete_agreement # Images for the damage severity task in which all annotators selected the same label, i.e. all agreed
-|   ├── is_complete_disagreement # Images for the in which each annotator selected a different, unique label, i.e. all disagreed
+|   ├── is_complete_disagreement # Images in which each annotator selected a different, unique label, i.e. all disagreed
 |   └── is_plurality_agreement_and_not_complete_agreement # Images in which there is plurality label, but not complete agreement between annotators
 ├── humanitarian_categories
 ├── informativeness                       

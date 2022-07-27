@@ -54,7 +54,7 @@ Year = {2020}
 }
 ```
 
-[2] ***Firoj Alam, Ferda Ofli, and Muhammad Imran, CrisisMMD: Multimodal Twitter Datasets from Natural Disasters. In Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018, Stanford, California, USA.***
+[2] ***Firoj Alam, Ferda Ofli, and Muhammad Imran, [CrisisMMD: Multimodal Twitter Datasets from Natural Disasters](https://arxiv.org/pdf/1805.00713.pdf). In Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018, Stanford, California, USA.***
 ```
 @InProceedings{crisismmd,
   author = {Alam, Firoj and Ofli, Ferda and Imran, Muhammad},
@@ -65,7 +65,7 @@ Year = {2020}
   date = {23-28},
   location = {USA}}
 ```
-[3] ***Hussein Mozannar, Yara Rizk, and Mariette Awad, Damage Identification in Social Media Posts using Multimodal Deep Learning, In Proc. of ISCRAM, May 2018, pp. 529–543***
+[3] ***Hussein Mozannar, Yara Rizk, and Mariette Awad, [Damage Identification in Social Media Posts using Multimodal Deep Learning](http://idl.iscram.org/files/husseinmouzannar/2018/2129_HusseinMouzannar_etal2018.pdf), In Proc. of ISCRAM, May 2018, pp. 529–543***
 ```
  @inproceedings{multimodal-deep-learning, title={Damage Identification in Social Media Posts using Multimodal Deep Learning}, booktitle={ISCRAM 2018 Conference Proceedings – 15th International Conference on Information Systems for Crisis Response and Management}, author={Mouzannar, Hussein and Yara Rizk and Awad, Mariette}, year={2018}, pages={529--543}} 
 ```

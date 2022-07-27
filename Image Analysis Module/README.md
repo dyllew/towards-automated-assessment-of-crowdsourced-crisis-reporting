@@ -2,10 +2,19 @@
 
 
 ### **URL Image Analysis Module Python Package**
-The URL Image Module Python package is used throughout the notebooks we developed in our image analysis and is open-sourced under the Apache 2.0 License. This package is available on PyPI [here](https://pypi.org/project/url-image-module/0.27.0/). The package repository can be found [here](https://gitlab.com/react76/url-image-module). We note that we used version 0.27.0 of the package in this work.
+The URL Image Module Python package is used throughout the Jupyter notebooks we developed in our image analysis and is open-sourced under the Apache 2.0 License. This package is available on PyPI [here](https://pypi.org/project/url-image-module). The package repository can be found [here](https://gitlab.com/react76/url-image-module). We note that we used [version 0.27.0](https://pypi.org/project/url-image-module/0.27.0/) of the package in this work.
 
 ### **Image Analysis Methodology -- Training, Annotation, Analysis, and Evaluation in Fukuchiyama City, Japan**
-Below we list the order & purpose of various Jupyter notebooks used for conducting our analysis on crisis image data from Fukuchiyama City, Japan. This includes constructing datasets/image folders, training models, conducting image annotation on Fukuchiyama images, interannotator agreement analysis, and testing of models.
+Below we list the order & purpose of various notebooks used for conducting our analysis on crisis image data from Fukuchiyama City, Japan. This includes constructing datasets/image folders, training models, conducting image annotation on Fukuchiyama images, interannotator agreement analysis, and testing of models.
+
+**IMPORTANT NOTES:** 
+* We are unable to open-source the image data we were provided by our partners in Fukuchiyama, however the utilities we developed for conducting our analysis and experiments are reusable and are open-sourced for use in future work. We aim to demonstrate these developed utilities in the notebooks described below.
+* Some of these notebooks were run on a Google Colab machine, others were run locally. This is indicated by whether or not the following code is the first cell in the notebook:
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
 
 ### **Constructing Datasets from Open-source Data Sources**
 ---
